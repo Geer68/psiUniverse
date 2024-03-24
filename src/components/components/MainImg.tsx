@@ -11,7 +11,7 @@ export default function MainImg() {
         <img
           src={mainImg()}
           alt="portada"
-          className="aspect-video object-cover sm:w-full sm:object-cover sm:max-h-[60vh] "
+          className="aspect-[4/3] sm:aspect-video  sm:w-full object-cover sm:max-h-[60vh] "
         />
         <div className="absolute top-0 left-0 w-full h-full blur bg-pink-500 opacity-25"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-8">

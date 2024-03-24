@@ -9,7 +9,7 @@ export function CardsCarousel() {
   return (
     <Carousel>
       <CarouselContent className="px-10 gap-4">
-        <CarouselItem className="grid grid-cols-1 items-center justify-center align-middle md:basis-1/2 lg:basis-1/5 glassCard rounded-xl p-5 ">
+        <CarouselItem className="aspect-[1/3] max-h-[300px] grid grid-cols-1 items-center justify-center align-middle md:basis-1/2 lg:basis-1/5 glassCard rounded-xl p-5 ">
           <header className="grid place-items-center">
             <BrainIcon className="h-12 w-12" />
             <h2 className="mt-5 text-xl font-bold">Desarrollo Personal</h2>
@@ -19,12 +19,12 @@ export function CardsCarousel() {
             mayor autoconocimiento.
           </p>
         </CarouselItem>
-        <CarouselItem className="grid grid-cols-1 items-center justify-center align-middle md:basis-1/2 lg:basis-1/5 glassCard rounded-xl p-5 ">
+        <CarouselItem className="grid grid-cols-1 gap-4 items-center justify-center align-middle md:basis-1/2 lg:basis-1/5 glassCard rounded-xl p-5 ">
           <header className="grid place-items-center">
             <BrainIcon className="h-12 w-12" />
             <h2 className="mt-5 text-xl font-bold">Desarrollo Personal</h2>
           </header>
-          <p className="text-center mt-10">
+          <p className="text-center">
             Exploración de la identidad, valores y metas personales para un
             mayor autoconocimiento.
           </p>

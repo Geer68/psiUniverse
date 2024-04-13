@@ -1,6 +1,6 @@
-import logo from "../../public/logo.png";
-import pattern from "../../public/patternpad.svg";
-import mainIMG from "../../public/mainIMG.png";
+import logo from "/logo.png";
+import pattern from "/patternpad.svg";
+import mainIMG from "/mainIMG.png";
 export const logoImage = () => {
   return logo;
 };

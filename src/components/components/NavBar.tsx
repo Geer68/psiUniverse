@@ -1,17 +1,18 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { logoImage } from "../../consts/const";
+import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Inicio", href: "#", current: false },
-  { name: "Nuestros Profesionales", href: "#", current: false },
-  { name: "Contacto", href: "#", current: false },
-  { name: "Dudas y consultas", href: "#", current: false },
+  { name: "Inicio", href: "/", current: false },
+  { name: "Nuestros Profesionales", href: "/psychologists", current: false },
+  { name: "Contacto", href: "/about", current: false },
+  { name: "Dudas y consultas", href: "/help", current: false },
 ];
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-pink-100 sticky top-0 z-50">
+    <Disclosure as="nav" className="bg-purple-200 sticky top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -39,14 +40,14 @@ export default function NavBar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className="text-pink-700 font-semibold hover:bg-pink-700 hover:text-white rounded-md px-3 py-2 text-sm "
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { mainImg } from "../../consts/const";
 import { ArrowRightIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function MainImg() {
   return (
@@ -22,8 +23,8 @@ export default function MainImg() {
             En PsiUniverse, conectamos con los mejores profesionales para
             ofrecerte la mejor atención.
           </h3>
-          <Button className="mt-6 bg-pink-900 text-md ">
-            Agendá ya
+          <Button className="mt-6 bg-pink-900 text-md hover:bg-pink-950 ">
+            <Link to="/psychologists">Agendá ya</Link>
             <ArrowRightIcon className="ml-2" />
           </Button>
         </div>

@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "lucide-react";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 export function HeroSection() {
   return (
@@ -20,10 +21,12 @@ export function HeroSection() {
         </p>
       </div>
       <footer>
-        <Button className="bg-purple-900 text-md hover:bg-purple-950 max-w-1/2">
-          Agendá ya
-          <ArrowRightIcon className="ml-2" />
-        </Button>
+        <Link to="/psychologists">
+          <Button className="bg-purple-900 text-md hover:bg-purple-950 max-w-1/2">
+            Agendá ya
+            <ArrowRightIcon className="ml-2" />
+          </Button>
+        </Link>
       </footer>
     </section>
   );

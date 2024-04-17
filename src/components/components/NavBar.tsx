@@ -22,7 +22,7 @@ export default function NavBar() {
   }, []); // Empty dependency array ensures this effect runs only once
 
   return (
-    <nav className="bg-[#eae0ff]  px-2 sm:px-4 py-4 rounded shadow top-0 sticky">
+    <nav className="bg-[#eae0ff] z-10  px-2 sm:px-4 py-4 rounded  top-0 sticky">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link
           to="/"
@@ -72,7 +72,7 @@ export default function NavBar() {
                 to="/psychologists"
                 className="block py-2 pr-4 pl-3 text-lg text-[#9576c5] border-b border-gray-100 hover:bg-purple-800 hover:text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 "
               >
-                Nuestros Profesionales
+                Profesionales
               </Link>
             </li>
             <li>
@@ -88,7 +88,7 @@ export default function NavBar() {
                 to="/help"
                 className="block py-2 pr-4 pl-3 text-lg text-[#9576c5] border-b border-gray-100 hover:bg-purple-800 hover:text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 "
               >
-                Dudas y Consultas
+                Dudas y consultas
               </Link>
             </li>
           </ul>

@@ -16,30 +16,15 @@ export function Home() {
           ¿Por qué Psi-Universe?
         </h2>
         <div className="flex">
-          <aside>
+          <aside className="flex items-center align-middle">
             <img src={brainImage()} alt="study" />
           </aside>
           <aside className="w-1/2 grid grid-cols-1 gap-5">
             <CardsCarousel />
-            <CardsCarousel />
+            {/* <CardsCarousel /> */}
           </aside>
         </div>
       </section>
-      {/* <h2 className="mt-10 font-bold text-3xl text-center p-3">
-        Lo que hacemos
-      </h2>
-      <section className="relative flex items-center py-12 justify-center w-full min-h-80  text-black">
-        <div className="absolute inset-0 z-0">
-          <img
-            src={patternImage()}
-            alt=""
-            className="object-cover w-full h-full"
-          />
-        </div>
-        <div className="z-10 relative w-full grid grid-cols-1">
-          <CardsCarousel />
-        </div> */}
-      {/* </section> */}
     </>
   );
 }

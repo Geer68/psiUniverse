@@ -6,12 +6,13 @@ import { About } from "./pages/About";
 import { Help } from "./pages/Help";
 import { Page404 } from "./pages/ErrorPage";
 import NavBar from "./components/components/NavBar";
+import { Footer } from "./components/components/Footer";
 
 function App() {
   return (
     <>
-      <NavBar />
       <Router>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="psychologists" element={<Professionals />} />
@@ -20,6 +21,7 @@ function App() {
           <Route path="help" element={<Help />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

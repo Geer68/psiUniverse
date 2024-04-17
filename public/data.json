@@ -1,0 +1,154 @@
+[
+    {
+        "id": 0,
+        "name": "Silvana Jofré",
+        "type": "Cognitivo Conductual",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/silvana-jofre/",
+            "ig": "https://www.instagram.com/silvana_jofre/",
+            "facebook": "https://www.facebook.com/silvana.jofre.9/"
+        },
+        "description": "Psicóloga cognitivo-conductual especializada en ayudar a las personas a superar obstáculos emocionales y alcanzar su máximo potencial. Apasionada por el cambio positivo y el bienestar emocional",
+        "freeTimes": {
+            "weekdays": [0,1,2,3,4],
+            "workTimes": [8,9,10,11,12,13,14,15,16,17,18,19,20],
+            "freeSessions": [
+                {
+                    "day": 0,
+                    "time": [8,12]
+                },
+                {
+                    "day": 1,
+                    "time": [8,12]
+                },
+                {
+                    "day": 2,
+                    "time": [12,16]
+                },
+                {
+                    "day": 3,
+                    "time": [10,18]
+                },
+                {
+                    "day": 4,
+                    "time": [9,17]
+                }
+            ]
+        },
+        "cv": "https://drive.google.com/file/d/1oXwq9b2wV5kG5oXwFkOYb7qYjL8eS1ZI/view?usp=sharing"
+    },
+    {
+        "id": 1,
+        "name": "Juan Garcia",
+        "type": "Psicoanalista",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/juangarcia/",
+            "ig": "https://www.instagram.com/juangarcia_psicoanalista/",
+            "facebook": "https://www.facebook.com/juan.garcia.547389/"
+        },
+        "description": "Psicoanalista especializado en el análisis de procesos mentales inconscientes y sus efectos en la vida cotidiana. Comprometido con ayudar a sus pacientes a entender y resolver conflictos emocionales profundos.",
+        "freeTimes": {
+            "weekdays": [0,1,2,3,4],
+            "workTimes": [8,9,10,11,12,13,14,15,16,17,18,19,20],
+            "freeSessions": [
+                {
+                    "day": 0,
+                    "time": [9,13]
+                },
+                {
+                    "day": 1,
+                    "time": [10,14]
+                },
+                {
+                    "day": 2,
+                    "time": [12,18]
+                },
+                {
+                    "day": 3,
+                    "time": [11,17]
+                },
+                {
+                    "day": 4,
+                    "time": [10,16]
+                }
+            ]
+        },
+        "cv": "https://drive.google.com/file/d/your-cv-path/view?usp=sharing"
+    },
+    {
+        "id": 2,
+        "name": "Ana Martinez",
+        "type": "Sistémica",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/anamartinez/",
+            "ig": "https://www.instagram.com/anamartinez_sistemica/",
+            "facebook": "https://www.facebook.com/anamartinez/"
+        },
+        "description": "Terapeuta sistémica dedicada a entender y abordar los problemas de los individuos dentro del contexto de sus relaciones y sistemas familiares. Orientada a promover la armonía y el equilibrio.",
+        "freeTimes": {
+            "weekdays": [0,1,2,3,4],
+            "workTimes": [8,9,10,11,12,13,14,15,16,17,18,19,20],
+            "freeSessions": [
+                {
+                    "day": 0,
+                    "time": [10,14]
+                },
+                {
+                    "day": 1,
+                    "time": [11,15]
+                },
+                {
+                    "day": 2,
+                    "time": [9,13]
+                },
+                {
+                    "day": 3,
+                    "time": [12,16]
+                },
+                {
+                    "day": 4,
+                    "time": [8,12]
+                }
+            ]
+        },
+        "cv": "https://drive.google.com/file/d/your-cv-path/view?usp=sharing"
+    },
+    {
+        "id": 3,
+        "name": "Carlos Rodriguez",
+        "type": "Humanista",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/carlosrodriguez/",
+            "ig": "https://www.instagram.com/carlosrodriguez_humanista/",
+            "facebook": "https://www.facebook.com/carlosrodriguez/"
+        },
+        "description": "Psicoterapeuta humanista enfocado en el crecimiento personal y el desarrollo de la autoestima. Comprometido con ayudar a sus pacientes a alcanzar su máximo potencial y encontrar significado en sus vidas.",
+        "freeTimes": {
+            "weekdays": [0,1,2,3,4],
+            "workTimes": [8,9,10,11,12,13,14,15,16,17,18,19,20],
+            "freeSessions": [
+                {
+                    "day": 0,
+                    "time": [12,16]
+                },
+                {
+                    "day": 1,
+                    "time": [13,17]
+                },
+                {
+                    "day": 2,
+                    "time": [14,18]
+                },
+                {
+                    "day": 3,
+                    "time": [15,19]
+                },
+                {
+                    "day": 4,
+                    "time": [16,20]
+                }
+            ]
+        },
+        "cv": "https://drive.google.com/file/d/your-cv-path/view?usp=sharing"
+    }
+]

@@ -77,7 +77,7 @@ export default function NavBar() {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/contact"
                 className="block py-2 pr-4 pl-3 text-lg text-[#9576c5] border-b border-gray-100 hover:bg-purple-800 hover:text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-purple-900 md:p-0 "
               >
                 Contacto
